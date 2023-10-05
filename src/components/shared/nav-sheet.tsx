@@ -36,7 +36,7 @@ export default function NavSheet() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle>Variant Vault</SheetTitle>
+          <SheetTitle>AetherWave</SheetTitle>
           <SheetDescription>
             <div className="flex justify-between items-center">
               <div className="flex items-center">

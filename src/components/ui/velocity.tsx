@@ -76,6 +76,7 @@ export function VelocityScroll({ textA, textB }: { textA: string; textB: string 
           <span>{children} </span>
           <span>{children} </span>
           <span>{children} </span>
+          <span>{children} </span>
           
         </motion.div>
       </div>

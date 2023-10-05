@@ -39,7 +39,7 @@ export function NavDropdown() {
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56 mr-6">
         <DropdownMenuLabel>
-          <Link href="/">Variant Vault</Link>
+          <Link href="/">AetherWave</Link>
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>

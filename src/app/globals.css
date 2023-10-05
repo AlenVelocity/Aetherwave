@@ -78,6 +78,9 @@
 
 @layer utilities {
   .parallax {
+    overflow-x: hidden;
+    overflow-y: visible; /* Set default overflow-y to visible */
+    width: 100%; /* Set an explicit width */
     letter-spacing: -2px;
     line-height: 0.9;
     margin: 0;
@@ -92,7 +95,6 @@
     font-size: 100px;
     display: flex;
     white-space: nowrap;
-    display: flex;
     flex-wrap: nowrap;
   }
   
@@ -116,21 +118,14 @@
   .container {
     @apply px-4;
   }
-}
 
-.parallax-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (max-width: 640px) {
-  .parallax-container {
-      flex-direction: column;
+  .parallax .scroller {
+    font-size: 60px; /* Adjusted font size for mobile */
   }
 
-  .parallax {
-      margin-bottom: 42px; /* Adjust this value based on your design */
+  body .parallax { /* Increase specificity */
+      overflow-y: visible;
+      overflow-x: hidden;
+      margin-bottom: 8px; 
   }
 }
