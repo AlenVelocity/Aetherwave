@@ -1,0 +1,21 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "main": "build/app.js",
+  "author": "Alen",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.5.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "openai": "^4.11.1",
+    "serialize-error": "^11.0.2",
+    "telegraf": "4.12.2"
+  }
+}
